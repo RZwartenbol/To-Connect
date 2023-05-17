@@ -45,6 +45,7 @@
 .search {
   padding: 1rem;
   border: none;
+  outline: none;
 }
 
 .search::placeholder {
@@ -482,9 +483,21 @@ footer {
   color: #032950;
 }
 
-.copyright-container p {
+.copyright-container a {
   color: #fff;
   font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.copyright-container div {
+  border-left: 0.16rem solid #fff;
+  color: #fff;
+  height: 1.2rem;
+  margin: 0 0.6rem;
+}
+
+.copyright-container a:hover {
+  color: #032950;
 }
 
 .footer-spacer-2 {
